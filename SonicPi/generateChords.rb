@@ -2,8 +2,13 @@
 use_synth :piano
 l=[:E, :D, :E, :A]
 def makeMajChord(l)
+  #major triad
   return [l, l.map {|x| x+4}, l.map {|x| x+7} ]
 end
+  #minor triad
+def makeMinChord(l)
+    return [l, l.map {|x| x+3}, l.map {|x| x+7} ]
+  end
 def MajChord(twod)
   final=[]
   for i in 0..((twod[0]).length-1)

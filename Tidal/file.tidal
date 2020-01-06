@@ -1,0 +1,13 @@
+d1 $ sound "breath if incoming mash"
+
+d2 $ sound "breaks157:9"
+
+d3 $ sound "hand:9"
+
+d4 $ sound "hh27 hh hardcore"
+
+hush
+
+d3 silence
+
+d1 $ sound "chbd:1*4"
